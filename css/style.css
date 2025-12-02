@@ -93,9 +93,9 @@ img {
 }
 .sub-cover{
     background-size: cover;
-    background-position: center top;
+    background-position: center bottom;
     height: 528px;
-    margin-bottom: 4rem;
+    height: 4rem;
 }
 .cover-home{
     background-image: url(../images/cover-home-s.webp);
@@ -172,12 +172,12 @@ img {
     .cover-home{
         background-image: url(../images/cover-home-l.webp);
     }
+    .about{
+        margin: 4rem auto 0;
+    }
     /*NEWS*/
     .cover-news{
         background-image: url(../images/cover-news-s.webp);
-    }
-    .about{
-        margin: 4rem auto 0;
     }
     /*フッター*/
     .page-ffoter{
